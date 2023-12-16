@@ -1,0 +1,52 @@
+.root {
+    -fx-background-color: black;
+}
+
+#text {
+    -fx-fill: white;
+}
+
+#hyperlink{
+    -fx-border-color: transparent;
+}
+
+.bottom-bar {
+    -fx-border-color: gainsboro transparent transparent transparent;
+    -fx-background-color: black;
+}
+
+.bottom-bar .button {
+    -fx-background-color: transparent;
+}
+
+#darkMode {
+    -fx-background-color: black;
+    -fx-graphic: url("img/night/normal/icons8-day-and-night-50.png");
+}
+
+#darkMode:hover {
+    -fx-graphic: url("img/night/hover/icons8-day-and-night-50.png");
+}
+
+#home {-fx-graphic: url("img/night/normal/icons8-home-37.png")}
+#home:hover {
+    -fx-graphic: url("img/night/hover/icons8-home-37.png");
+}
+
+#search { -fx-graphic: url("img/night/normal/icons8-search-43.png"); }
+#search:hover {
+    -fx-graphic: url("img/night/hover/icons8-search-43.png");
+}
+
+#addPhoto { -fx-graphic: url("img/night/normal/icons8-add-new-43.png"); }
+#addPhoto:hover {
+    -fx-graphic: url("img/night/hover/icons8-add-new-43.png");
+}
+
+#activity { -fx-graphic: url("img/night/normal/icons8-heart-43.png"); }
+#activity:hover { -fx-graphic: url("img/night/hover/icons8-heart-43.png"); }
+
+#profile { -fx-graphic: url("img/night/normal/icons8-user-41.png"); }
+#profile:hover {
+    -fx-graphic: url("img/night/hover/icons8-user-41.png");
+}

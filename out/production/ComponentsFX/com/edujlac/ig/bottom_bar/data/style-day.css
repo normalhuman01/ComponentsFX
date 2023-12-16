@@ -1,0 +1,45 @@
+#hyperlink {
+    -fx-border-color: transparent;
+}
+
+.bottom-bar {
+    -fx-border-color: black transparent transparent transparent;
+}
+
+.bottom-bar .button {
+    -fx-background-color: transparent;
+}
+
+#darkMode {
+    -fx-background-color: transparent;
+}
+
+#darkMode:hover {
+    -fx-graphic: url("img/day/hover/icons8-day-and-night-50.png");
+}
+
+#home:hover {
+    -fx-graphic: url("img/day/hover/icons8-home-37.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+
+#search:hover {
+    -fx-graphic: url("img/day/hover/icons8-search-43.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+
+#addPhoto:hover {
+    -fx-graphic: url("img/day/hover/icons8-add-new-43.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+
+#activity:hover {
+    -fx-graphic: url("img/day/hover/icons8-heart-43.png");
+}
+
+#profile:hover {
+    -fx-graphic: url("img/day/hover/icons8-user-41.png");
+}
